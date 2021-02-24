@@ -1,0 +1,77 @@
+body {
+	background-color: floralwhite;
+}
+
+button {
+	font-size: 30px;
+	background-color: lightblue;
+}
+
+h1,h2 {
+	color: darkblue;
+}
+
+#signup{
+	background-color: darkblue;
+	color: white;
+}
+
+span {
+	color: steelblue;
+}
+
+.tag {
+	background-color: indianred;
+	color: white;
+	font-size: 16px;
+}
+
+.post a {
+	color: steelblue;
+}
+footer a {
+	color: indianred;
+}
+
+h2 + button {
+	font-size: 20px;
+}
+
+footer > a {
+	color: skyblue;
+}
+input[type="password"] {
+	color: greenyellow;
+}
+ 
+a[href*="google"]{
+	color: magenta;
+}
+
+.post button:hover {
+	background-color: indianred;
+	color: white;
+}
+
+.post a:hover {
+	text-decoration: underline;
+}
+
+.post button:active {
+	background-color: lightgreen;  
+}
+
+.post:nth-of-type(2n){
+	background-color: white;
+}
+h2::first-letter {
+	font-size: 50px;
+}
+
+p::first-line {
+	color: purple;
+}
+
+p::selection {
+	background-color: yellow;
+}
